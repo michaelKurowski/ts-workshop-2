@@ -1,0 +1,12 @@
+{
+  // "extends": "@shared/typescript-config/base.json",
+  "include": ["**/*.ts"],
+  "exclude": ["dist/**/*", "node_modules/**/*"],
+  "compilerOptions": {
+    "lib": ["esnext", "dom", "esnext.decorators"],
+    "target": "es2022",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": false
+  }
+}
